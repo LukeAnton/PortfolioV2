@@ -1,0 +1,17 @@
+{
+  "name": "portfoliov2",
+  "version": "1.0.0",
+  "description": "Portfolio V@",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ --recursive",
+    "deploy": "gh-pages -d PortfolioV2"
+  },
+  "author": "Luke A Firth",
+  "license": "MIT",
+  "dependencies": {
+    "animejs": "^3.0.1",
+    "gh-pages": "^2.0.1",
+    "node-sass": "^4.12.0"
+  }
+}
