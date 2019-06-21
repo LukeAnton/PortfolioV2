@@ -14,7 +14,9 @@
   src: url(../fonts/Stellaa.otf);
 }
 //Fonts////////////////////////////
-
+@mixin easeOut {
+  transition: all 1s ease-out;
+}
 //Variables//////////////////////////////////////
 $white: #ffffff;
 $blue: #80aeff;
