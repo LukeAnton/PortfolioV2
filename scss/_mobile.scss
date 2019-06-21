@@ -1,0 +1,16 @@
+@include mediaXSm {
+}
+
+@include mediaSm {
+}
+@include mediaMd {
+  .about {
+    .about-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}
+@include mediaLg {
+}
+@include mediaXl {
+}

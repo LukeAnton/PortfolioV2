@@ -1,0 +1,77 @@
+//Scrolling Nav///////////////////////////////
+
+.navbar-scroll {
+  box-shadow: 0 0 20px $blue;
+  text-shadow: -0.5px 0.5px 0.5px black;
+  visibility: hidden;
+  font-family: Noah-Bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  height: 20vh;
+  top: 0;
+  left: 0;
+  background-color: $blue;
+  text-decoration: none;
+  .logo-scroll {
+    top: 30px;
+    font-size: 80px;
+    position: absolute;
+    font-family: Stella;
+    color: white;
+  }
+  ul {
+    display: flex;
+    list-style: none;
+  }
+  a {
+    display: inline-block;
+    text-decoration: none !important;
+    width: 180px;
+    color: $white;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 150px;
+  }
+}
+
+.active {
+  border-bottom: 3px solid $blue;
+  padding-bottom: 30px;
+  padding-left: -20px;
+}
+//Scrolling Nav///////////////////////////////
+//Landing Page///////////////////////////////
+.navbar {
+  font-family: Noah-Bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 8vh;
+  bottom: 0;
+  left: 0;
+  background-color: rgba($blue, 0.2);
+  text-decoration: none;
+  ul {
+    display: flex;
+    list-style: none;
+  }
+  a {
+    display: inline-block;
+    text-decoration: none !important;
+    width: 180px;
+    color: $white;
+    font-size: 13px;
+    text-align: center;
+  }
+  .home-landing {
+    border-top: 3px solid $blue;
+    padding: 40px 20px 0 20px;
+  }
+}
