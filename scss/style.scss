@@ -5,6 +5,47 @@
   margin: 0;
   padding: 0;
 }
+
+//Scrolling Nav///////////////////////////////
+.navbar-scroll {
+  visibility: hidden;
+  font-family: Noah-Bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  padding: 135px 0 7px 0;
+  top: 0;
+  left: 0;
+  background-color: $blue;
+  text-decoration: none;
+  .logo-scroll {
+    top: 30px;
+    font-size: 80px;
+    position: absolute;
+    font-family: Stella;
+    color: white;
+  }
+  ul {
+    display: flex;
+    list-style: none;
+  }
+  a {
+    display: inline-block;
+    text-decoration: none !important;
+    width: 180px;
+    color: $white;
+    font-size: 13px;
+    text-align: center;
+  }
+}
+
+.active {
+  color: black;
+}
+//Scrolling Nav///////////////////////////////
 //Landing Page///////////////////////////////
 .navbar {
   font-family: Noah-Bold;
@@ -14,10 +55,10 @@
   position: absolute;
   z-index: 1;
   width: 100%;
-  padding: 10px;
+  height: 8vh;
   bottom: 0;
   left: 0;
-  background-color: rgba($blue, 0.5);
+  background-color: rgba($blue, 0.7);
   text-decoration: none;
   ul {
     display: flex;
@@ -26,9 +67,14 @@
   a {
     display: inline-block;
     text-decoration: none !important;
-    width: 138px;
+    width: 180px;
     color: $white;
+    font-size: 13px;
     text-align: center;
+  }
+  .home-landing {
+    border-top: 3px solid rgba($blue, 0.7);
+    padding: 40px 20px 0 20px;
   }
 }
 .landing {
@@ -38,17 +84,27 @@
   &-inner {
     height: 100%;
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     width: 100%;
     margin: auto;
+    padding: 135px 0 7px 0;
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-family: Stella;
     color: rgba($white, 0.9);
     font-size: 100px;
+    margin-top: -100px;
+  }
+  .logo {
+    font-family: Stella;
+  }
+  .blurb {
+    font-family: "Poiret One", cursive;
+    font-size: 20px;
+    letter-spacing: 5px;
   }
 }
+
 //Landing Page///////////////////////////////
 .about {
   height: 100vh;
@@ -63,11 +119,10 @@
   background-repeat: repeat;
   background-attachment: fixed;
   overflow: scroll;
-  /* height: 93.9vh; */
-  height: 100vh;
+  height: 92vh;
   width: 100%;
   position: absolute;
-  bottom: 0;
+  top: 0;
   left: 0;
   background-color: rgba(black, 0.6);
 }
