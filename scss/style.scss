@@ -16,7 +16,7 @@
   position: fixed;
   z-index: 2;
   width: 100%;
-  padding: 135px 0 7px 0;
+  height: 20vh;
   top: 0;
   left: 0;
   background-color: $blue;
@@ -39,11 +39,14 @@
     color: $white;
     font-size: 13px;
     text-align: center;
+    margin-top: 150px;
   }
 }
 
 .active {
-  color: black;
+  border-bottom: 3px solid $blue;
+  padding-bottom: 30px;
+  padding-left: -20px;
 }
 //Scrolling Nav///////////////////////////////
 //Landing Page///////////////////////////////

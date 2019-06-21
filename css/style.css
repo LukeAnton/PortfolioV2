@@ -26,7 +26,7 @@
   position: fixed;
   z-index: 2;
   width: 100%;
-  padding: 135px 0 7px 0;
+  height: 20vh;
   top: 0;
   left: 0;
   background-color: #80aeff;
@@ -46,10 +46,13 @@
     width: 180px;
     color: #ffffff;
     font-size: 13px;
-    text-align: center; }
+    text-align: center;
+    margin-top: 150px; }
 
 .active {
-  color: black; }
+  border-bottom: 3px solid #80aeff;
+  padding-bottom: 30px;
+  padding-left: -20px; }
 
 .navbar {
   font-family: Noah-Bold;
