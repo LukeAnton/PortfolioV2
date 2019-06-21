@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "sass": "node-sass -w scss/ -o css/ --recursive",
-    "deploy": "gh-pages -d PortfolioV2"
+    "deploy": "gh-pages -d dist"
   },
   "author": "Luke A Firth",
   "license": "MIT",
