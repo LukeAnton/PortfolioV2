@@ -78,9 +78,56 @@
     border-top: 3px solid #80aeff;
     padding: 40px 20px 0 20px; }
 
+@media screen and (max-width: 500px) {
+  img.logo-img {
+    width: 80% !important; }
+  .navbar a {
+    width: 100px !important; }
+  .navbar-scroll a {
+    width: 100px !important; }
+  .about {
+    height: 200vh !important; }
+    .about .bio {
+      font-size: 13px !important; }
+  .projects {
+    height: 30vh !important; }
+    .projects .projects-cont {
+      width: 80%;
+      grid-template-columns: repeat(1, 1fr) !important; } }
+
 @media screen and (max-width: 768px) {
   .about .about-container {
-    grid-template-columns: repeat(1, 1fr); } }
+    grid-template-columns: repeat(1, 1fr); }
+  .logo-img {
+    width: 400px !important;
+    margin-bottom: 20px; }
+  .blurb {
+    font-size: 14px !important; }
+  .navbar a {
+    width: 130px; }
+  .navbar-scroll a {
+    width: 130px; }
+  .about {
+    height: 160vh !important; }
+  .bio {
+    font-size: 14px !important; }
+  .projects {
+    height: 170vh !important; }
+    .projects .projects-cont {
+      width: 80%;
+      grid-template-columns: repeat(2, 1fr) !important; }
+  .contact {
+    height: 30vh !important; } }
+
+@media screen and (min-width: 769px) and (max-width: 1170px) {
+  .logo-img {
+    width: 650px !important;
+    margin-bottom: 20px; }
+  .projects .projects-cont {
+    width: 80%;
+    grid-template-columns: repeat(2, 1fr) !important; }
+  .projects {
+    height: 230vh !important; } }
 
 * {
   border: 2px black;
@@ -112,6 +159,10 @@
     font-family: "Poiret One", cursive;
     font-size: 20px;
     letter-spacing: 5px; }
+
+.logo-img {
+  width: 800px;
+  margin-bottom: 20px; }
 
 .section-title {
   display: inline-block;
