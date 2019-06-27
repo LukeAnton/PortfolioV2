@@ -12,17 +12,11 @@
       width: 100px !important;
     }
   }
-  .about {
-    height: 200vh !important;
-    .bio {
-      font-size: 13px !important;
-    }
-  }
+
   .projects {
-    height: 100vh !important;
     .projects-cont {
       width: 80%;
-      grid-template-columns: repeat(1, 1fr) !important;
+      grid-template-columns: repeat(2, 1fr) !important;
     }
   }
 }
@@ -42,23 +36,21 @@
     }
   }
   .about {
-    height: 200vh !important;
     .bio {
       font-size: 13px !important;
     }
   }
   .projects {
-    height: 100vh !important;
     .projects-cont {
       width: 80%;
-      grid-template-columns: repeat(1, 1fr) !important;
+      grid-template-columns: repeat(2, 1fr);
     }
   }
 }
 @include mediaMd {
   .about {
     .about-container {
-      grid-template-columns: repeat(1, 1fr);
+      grid-template-columns: repeat(2, 1fr);
     }
   }
   .logo-img {
@@ -78,22 +70,16 @@
       width: 130px;
     }
   }
-  .about {
-    height: 145vh !important;
-  }
+
   .bio {
     font-size: 14px !important;
   }
   .projects {
-    height: 120vh !important;
     .projects-cont {
       width: 80%;
-      grid-template-columns: repeat(2, 1fr) !important;
+      grid-template-columns: repeat(3, 1fr) !important;
     }
   }
-  /* .contact {
-    height: 30vh !important;
-  } */
 }
 @include mediaLg {
   .logo-img {
@@ -101,10 +87,9 @@
     margin-bottom: 20px;
   }
   .projects {
-    height: 200vh !important;
     .projects-cont {
       width: 80%;
-      grid-template-columns: repeat(2, 1fr) !important;
+      grid-template-columns: repeat(3, 1fr) !important;
     }
   }
   /* .projects {

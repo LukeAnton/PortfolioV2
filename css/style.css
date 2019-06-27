@@ -85,15 +85,9 @@
     width: 100px !important; }
   .navbar-scroll a {
     width: 100px !important; }
-  .about {
-    height: 200vh !important; }
-    .about .bio {
-      font-size: 13px !important; }
-  .projects {
-    height: 100vh !important; }
-    .projects .projects-cont {
-      width: 80%;
-      grid-template-columns: repeat(1, 1fr) !important; } }
+  .projects .projects-cont {
+    width: 80%;
+    grid-template-columns: repeat(2, 1fr) !important; } }
 
 @media screen and (max-width: 500px) {
   img.logo-img {
@@ -102,19 +96,15 @@
     width: 100px !important; }
   .navbar-scroll a {
     width: 100px !important; }
-  .about {
-    height: 200vh !important; }
-    .about .bio {
-      font-size: 13px !important; }
-  .projects {
-    height: 100vh !important; }
-    .projects .projects-cont {
-      width: 80%;
-      grid-template-columns: repeat(1, 1fr) !important; } }
+  .about .bio {
+    font-size: 13px !important; }
+  .projects .projects-cont {
+    width: 80%;
+    grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 768px) {
   .about .about-container {
-    grid-template-columns: repeat(1, 1fr); }
+    grid-template-columns: repeat(2, 1fr); }
   .logo-img {
     width: 400px !important;
     margin-bottom: 20px; }
@@ -124,28 +114,19 @@
     width: 130px; }
   .navbar-scroll a {
     width: 130px; }
-  .about {
-    height: 145vh !important; }
   .bio {
     font-size: 14px !important; }
-  .projects {
-    height: 120vh !important; }
-    .projects .projects-cont {
-      width: 80%;
-      grid-template-columns: repeat(2, 1fr) !important; }
-  /* .contact {
-    height: 30vh !important;
-  } */ }
+  .projects .projects-cont {
+    width: 80%;
+    grid-template-columns: repeat(3, 1fr) !important; } }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .logo-img {
     width: 650px !important;
     margin-bottom: 20px; }
-  .projects {
-    height: 200vh !important; }
-    .projects .projects-cont {
-      width: 80%;
-      grid-template-columns: repeat(2, 1fr) !important; }
+  .projects .projects-cont {
+    width: 80%;
+    grid-template-columns: repeat(3, 1fr) !important; }
   /* .projects {
     height: 230vh !important;
   } */ }
@@ -200,7 +181,7 @@
   font-weight: 400; }
 
 .about {
-  height: 145vh; }
+  height: auto; }
   .about .about-container {
     max-width: 90%;
     margin: auto;
@@ -221,7 +202,7 @@
       /* box-shadow: 0 0 120px rgba($blue, 0.2); */ }
     .about .about-container .bio {
       font-family: IBM Plex Sans;
-      font-size: 17px;
+      font-size: 12px;
       font-weight: 900; }
 
 .dark-overlay {
@@ -249,7 +230,7 @@
   margin-bottom: 90px; }
 
 .projects {
-  height: 110vh;
+  height: auto;
   text-align: center;
   font-family: Noah-Bold; }
   .projects .showw {
@@ -263,6 +244,7 @@
   .projects .blur {
     filter: blur(8px); }
   .projects .showw .mask {
+    border-radius: 5000px;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -274,7 +256,7 @@
   .projects .show-second img {
     transition: all 0.3s ease-in-out; }
   .projects .show-second .mask {
-    background-color: rgba(0, 0, 0, 0.6);
+    /*   background-color: rgba(black, 0.6); */
     transform: translateX(-110%);
     opacity: 1;
     transition: all 0.4s ease-in-out; }
@@ -306,7 +288,7 @@
     margin-right: 40px; }
   .projects .pcons {
     padding: 30px;
-    color: white;
+    color: black;
     font-size: 20px; }
     .projects .pcons:hover {
       color: #80aeff; }
@@ -332,7 +314,7 @@
       .projects .projects-cont .img4:hover,
       .projects .projects-cont .img5:hover,
       .projects .projects-cont .img6:hover {
-        filter: blur(8px);
+        filter: blur(4px);
         transition: easeOut; }
     .projects .projects-cont .project-text {
       text-decoration: none;
@@ -341,14 +323,18 @@
       color: white;
       text-shadow: -1px 1px 10px black; }
 
+hr {
+  color: black;
+  background-color: black; }
+
 .contact {
-  height: 100vh;
+  height: auto;
   text-align: center; }
 
 .center {
   display: table;
   width: 100%;
-  margin-bottom: -200px; }
+  margin-bottom: 100px; }
 
 #social-test {
   font-size: 25px; }
@@ -382,6 +368,5 @@ footer {
   position: relative;
   width: 100%;
   color: black !important;
-  bottom: -458px;
-  color: white;
+  bottom: 0;
   font-family: "Poiret One", cursive; }
