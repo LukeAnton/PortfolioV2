@@ -34,14 +34,15 @@
     color: $white;
     font-size: 13px;
     text-align: center;
-    margin-top: 90px;
+    margin-top: 65px;
   }
 }
 
 .active {
-  border-bottom: 10px solid rgba($blue, 0.5);
-  padding-bottom: 30px;
+  border-bottom: 4px solid $blue;
+  padding-bottom: 10px;
   padding-left: -20px;
+  border-bottom-style: dotted;
 }
 //Scrolling Nav///////////////////////////////
 //Landing Page///////////////////////////////
