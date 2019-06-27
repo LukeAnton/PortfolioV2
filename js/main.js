@@ -8,8 +8,10 @@ $(document).ready(function() {
         72
     ) {
       $(".navbar-scroll").css("visibility", "visible");
+      $(".mainNav").css("visibility", "hidden");
     } else {
       $(".navbar-scroll").css("visibility", "hidden");
+      $(".mainNav").css("visibility", "visible");
     }
   });
   // Cache selectors

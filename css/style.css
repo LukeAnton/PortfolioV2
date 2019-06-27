@@ -26,7 +26,7 @@
   height: 9vh;
   top: 0;
   left: 0;
-  background-color: #80aeff;
+  background-color: rgba(128, 174, 255, 0.8);
   text-decoration: none; }
   .navbar-scroll .logo-scroll {
     top: 18px;
