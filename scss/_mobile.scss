@@ -1,4 +1,30 @@
 @include mediaXSm {
+  img.logo-img {
+    width: 80% !important;
+  }
+  .navbar {
+    a {
+      width: 100px !important;
+    }
+  }
+  .navbar-scroll {
+    a {
+      width: 100px !important;
+    }
+  }
+  .about {
+    height: 200vh !important;
+    .bio {
+      font-size: 13px !important;
+    }
+  }
+  .projects {
+    height: 100vh !important;
+    .projects-cont {
+      width: 80%;
+      grid-template-columns: repeat(1, 1fr) !important;
+    }
+  }
 }
 
 @include mediaSm {
@@ -22,7 +48,7 @@
     }
   }
   .projects {
-    height: 30vh !important;
+    height: 100vh !important;
     .projects-cont {
       width: 80%;
       grid-template-columns: repeat(1, 1fr) !important;
@@ -53,21 +79,21 @@
     }
   }
   .about {
-    height: 160vh !important;
+    height: 145vh !important;
   }
   .bio {
     font-size: 14px !important;
   }
   .projects {
-    height: 170vh !important;
+    height: 120vh !important;
     .projects-cont {
       width: 80%;
       grid-template-columns: repeat(2, 1fr) !important;
     }
   }
-  .contact {
+  /* .contact {
     height: 30vh !important;
-  }
+  } */
 }
 @include mediaLg {
   .logo-img {
@@ -75,14 +101,15 @@
     margin-bottom: 20px;
   }
   .projects {
+    height: 200vh !important;
     .projects-cont {
       width: 80%;
       grid-template-columns: repeat(2, 1fr) !important;
     }
   }
-  .projects {
+  /* .projects {
     height: 230vh !important;
-  }
+  } */
 }
 @include mediaXl {
 }

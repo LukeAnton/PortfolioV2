@@ -61,10 +61,9 @@
   font-weight: 400;
 }
 .about {
-  height: 160vh;
+  height: 145vh;
   .about-container {
-    max-width: 800px;
-    padding: 0 50px 0 50px;
+    max-width: 90%;
     margin: auto;
     /*margin-top: 100px;
   height: 100%;
@@ -118,10 +117,9 @@
   margin-bottom: 90px;
 }
 .projects {
-  height: 120vh;
+  height: 110vh;
   text-align: center;
   font-family: Noah-Bold;
-
   .showw {
     color: white;
     width: 100%;
@@ -240,12 +238,8 @@
 }
 
 #social-test {
-  mdisplay: table-cell;
-  vertical-align: middle;
-  text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   .social {
-    margin-top: 100px;
     padding-left: 0px;
   }
   li {
@@ -256,12 +250,12 @@
     border-radius: 6px;
     list-style-type: none;
     display: inline-block;
-    width: 100px;
-    height: 100px;
-    line-height: 100px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
     border: 1px solid black;
     cursor: pointer;
-    margin-bottom: 90px;
+
     transition: ease 0.3s;
     &:hover {
       background-color: rgba(0, 0, 0, 0.41);

@@ -5,7 +5,7 @@ $(document).ready(function() {
       $("#about").offset().top +
         $("#landing").outerHeight() -
         window.innerHeight -
-        161
+        72
     ) {
       $(".navbar-scroll").css("visibility", "visible");
     } else {
@@ -81,7 +81,7 @@ $(document).ready(function() {
       if (target.length) {
         $("html,body").animate(
           {
-            scrollTop: target.offset().top - 160
+            scrollTop: target.offset().top - 72
           },
           1000
         );
