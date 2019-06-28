@@ -435,8 +435,15 @@ footer {
     rgba(225, 238, 255, 0.8) 60%,
     $blue
   );
+  box-shadow: -1px 1px 30px rgba(42, 40, 73, 0.2);
   -webkit-animation: bubble-anim 2s ease-out infinite;
   animation: bubble-anim 2s ease-out infinite;
+  &:hover {
+    transition: 0.4s;
+    box-shadow: -10px 10px 30px rgba(42, 40, 73, 0.1);
+    margin-left: 4px;
+    margin-bottom: 7px;
+  }
 }
 .ball.bubble:before {
   -webkit-filter: blur(0);
@@ -470,7 +477,6 @@ footer {
 
 .stage {
   left: 50%;
-
   transform: translate(-118px, -295px);
   position: absolute;
   width: 200px;

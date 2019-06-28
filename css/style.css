@@ -499,8 +499,14 @@ footer {
 
 .ball.bubble {
   background: radial-gradient(circle at 50% 55%, #e4eeff, rgba(240, 245, 255, 0.9) 40%, rgba(225, 238, 255, 0.8) 60%, #80aeff);
+  box-shadow: -1px 1px 30px rgba(42, 40, 73, 0.2);
   -webkit-animation: bubble-anim 2s ease-out infinite;
   animation: bubble-anim 2s ease-out infinite; }
+  .ball.bubble:hover {
+    transition: 0.4s;
+    box-shadow: -10px 10px 30px rgba(42, 40, 73, 0.1);
+    margin-left: 4px;
+    margin-bottom: 7px; }
 
 .ball.bubble:before {
   -webkit-filter: blur(0);
