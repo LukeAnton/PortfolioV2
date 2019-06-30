@@ -329,7 +329,8 @@
     .projects .projects-cont .img3,
     .projects .projects-cont .img4,
     .projects .projects-cont .img5,
-    .projects .projects-cont .img6 {
+    .projects .projects-cont .img6,
+    .projects .projects-cont .img7 {
       transform: translate(-2.1px, -2.1px);
       width: 103%;
       height: 103%;
@@ -340,7 +341,8 @@
       .projects .projects-cont .img3:hover,
       .projects .projects-cont .img4:hover,
       .projects .projects-cont .img5:hover,
-      .projects .projects-cont .img6:hover {
+      .projects .projects-cont .img6:hover,
+      .projects .projects-cont .img7:hover {
         filter: blur(4px);
         transition: easeOut; }
     .projects .projects-cont .project-text {
@@ -437,6 +439,17 @@ footer {
   transition: all 0.3s cubic-bezier(0, 1.135, 0.73, 1.405); }
   .btn26 .buttons .fa:hover {
     background-color: #80aeff; }
+
+h6 {
+  font-family: "Poiret One", cursive;
+  font-weight: 900;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  letter-spacing: 2px; }
+
+.b6 .fa {
+  background-color: rgba(198, 19, 192, 0) !important; }
 
 .btn26 .buttons .fa-search {
   transition-delay: 0.1s; }

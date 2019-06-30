@@ -233,7 +233,8 @@
     .img3,
     .img4,
     .img5,
-    .img6 {
+    .img6,
+    .img7 {
       transform: translate(-2.1px, -2.1px);
       width: 103%;
       height: 103%;
@@ -253,6 +254,7 @@
       text-shadow: -1px 1px 10px black;
     }
   }
+
   //////////
 }
 hr {
@@ -353,6 +355,18 @@ footer {
   &:hover {
     background-color: $blue;
   }
+}
+h6 {
+  font-family: "Poiret One", cursive;
+  font-weight: 900;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.b6 .fa {
+  background-color: rgba(198, 19, 192, 0) !important;
 }
 .btn26 .buttons .fa-search {
   transition-delay: 0.1s;
