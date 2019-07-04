@@ -92,9 +92,18 @@
       grid-template-columns: repeat(3, 1fr) !important;
     }
   }
+  footer {
+    bottom: 0 !important;
+  }
   /* .projects {
     height: 230vh !important;
   } */
 }
 @include mediaXl {
+  .contact {
+    height: 91vh !important;
+  }
+  footer {
+    padding-bottom: 63px !important;
+  }
 }

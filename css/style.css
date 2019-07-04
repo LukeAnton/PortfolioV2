@@ -128,9 +128,17 @@
   .projects .projects-cont {
     width: 80%;
     grid-template-columns: repeat(3, 1fr) !important; }
+  footer {
+    bottom: 0 !important; }
   /* .projects {
     height: 230vh !important;
   } */ }
+
+@media screen and (min-width: 1171px) {
+  .contact {
+    height: 91vh !important; }
+  footer {
+    padding-bottom: 63px !important; } }
 
 * {
   border: 2px black;

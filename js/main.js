@@ -142,56 +142,6 @@ $(document).ready(function() {
       }
     );
   });
-  $(function() {
-    $(" .b1, img1").hover(
-      function() {
-        $(".img1").addClass("blur");
-      },
-      function() {
-        $(".img1").removeClass("blur");
-      }
-    );
-  });
-  $(function() {
-    $(" .b2, img2").hover(
-      function() {
-        $(".img2").addClass("blur");
-      },
-      function() {
-        $(".img2").removeClass("blur");
-      }
-    );
-  });
-  $(function() {
-    $(" .b3, img3").hover(
-      function() {
-        $(".img3").addClass("blur");
-      },
-      function() {
-        $(".img3").removeClass("blur");
-      }
-    );
-  });
-  $(function() {
-    $(" .b4, img4").hover(
-      function() {
-        $(".img4").addClass("blur");
-      },
-      function() {
-        $(".img4").removeClass("blur");
-      }
-    );
-  });
-  $(function() {
-    $(" .b5, img5").hover(
-      function() {
-        $(".img5").addClass("blur");
-      },
-      function() {
-        $(".img5").removeClass("blur");
-      }
-    );
-  });
 
   // $(window).scroll(function() {
   //   console.log("hello");
